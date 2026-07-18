@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#09070f">
+  <meta name="description" content="SINARA — Rumah Film Independen Indonesia. Platform publikasi dan streaming untuk karya film pelajar, komunitas, dan filmmaker independen.">
+  <meta property="og:title" content="SINARA — Rumah Film Independen Indonesia">
+  <meta property="og:description" content="Tempat karya menemukan penontonnya.">
+  <meta property="og:image" content="assets/logo.jpg">
+  <title>SINARA — Rumah Film Independen Indonesia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <a class="brand" href="#beranda" aria-label="Beranda SINARA">
+      <img src="assets/logo.jpg" alt="Logo SINARA">
+      <span>SINARA</span>
+    </a>
+    <button class="menu-toggle" aria-label="Buka menu">☰</button>
+    <nav class="nav-links">
+      <a href="#beranda">Beranda</a>
+      <a href="#film">Film</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#kreator">Kreator</a>
+      <a href="#berita">Berita</a>
+      <a class="nav-cta" href="#kontak">Hubungi</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="beranda" class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-copy reveal">
+        <span class="pill">DALAM TAHAP PENGEMBANGAN</span>
+        <p class="eyebrow">RUMAH FILM INDEPENDEN INDONESIA</p>
+        <h1>Tempat karya menemukan <em>penontonnya.</em></h1>
+        <p class="hero-text">
+          SINARA dirancang sebagai platform publikasi dan streaming untuk film pelajar,
+          dokumenter, karya komunitas, serta filmmaker independen dari seluruh Indonesia.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#film">Jelajahi SINARA</a>
+          <a class="btn ghost" href="#kreator">Daftarkan Karya</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>4</strong><span>Judul prototipe</span></div>
+          <div><strong>100%</strong><span>Karya independen</span></div>
+          <div><strong>Indonesia</strong><span>Jangkauan kreator</span></div>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="logo-orbit"></div>
+        <img class="hero-logo" src="assets/logo.jpg" alt="Logo SINARA">
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Nilai utama SINARA">
+      <div class="ticker-track">
+        <span>KARYA ORISINAL</span><b>✦</b>
+        <span>KURASI BERKUALITAS</span><b>✦</b>
+        <span>DUKUNG KREATOR</span><b>✦</b>
+        <span>FILM PELAJAR</span><b>✦</b>
+        <span>FILM INDEPENDEN</span><b>✦</b>
+      </div>
+    </section>
+
+    <section id="film" class="section">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow">KATALOG SINARA</p>
+          <h2>Cerita untuk ditonton.</h2>
+        </div>
+        <div class="filter-buttons" role="group" aria-label="Filter film">
+          <button class="filter active" data-filter="all">Semua</button>
+          <button class="filter" data-filter="tayang">Tayang</button>
+          <button class="filter" data-filter="coming">Coming Soon</button>
+        </div>
+      </div>
+
+      <div class="film-grid">
+        <article class="film-card reveal" data-status="coming">
+          <div class="poster poster-1"><span class="badge">COMING SOON</span><div class="poster-title">RUMAH<br>KITA</div></div>
+          <div class="film-meta"><p>Dokumenter</p><h3>Rumah Kita yang Dekat Tapi Jarang Dilihat</h3><span>Segera hadir di SINARA</span></div>
+        </article>
+        <article class="film-card reveal" data-status="tayang">
+          <div class="poster poster-2"><span class="badge live">TAYANG</span><button class="play" aria-label="Putar trailer">▶</button><div class="poster-title small">LANGKAH KECIL<br>AKSI BESAR</div></div>
+          <div class="film-meta"><p>Edukasi</p><h3>Langkah Kecil, Aksi Besar</h3><span>2025 • 10+</span></div>
+        </article>
+        <article class="film-card reveal" data-status="coming">
+          <div class="poster poster-3"><span class="badge">COMING SOON</span><div class="poster-title small">CATATAN<br>AKHIR SEKOLAH</div></div>
+          <div class="film-meta"><p>School</p><h3>Catatan Akhir Sekolah AK14</h3><span>Segera hadir di SINARA</span></div>
+        </article>
+        <article class="film-card reveal" data-status="coming">
+          <div class="poster poster-4"><span class="badge">COMING SOON</span><div class="poster-title">GEN#16</div></div>
+          <div class="film-meta"><p>After Movie</p><h3>Gen#16 After 11 Years</h3><span>Segera hadir di SINARA</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="showcase">
+      <div class="showcase-copy reveal">
+        <p class="eyebrow">PENGALAMAN MENONTON</p>
+        <h2>Tampilan modern, dibuat untuk menemukan cerita.</h2>
+        <p>
+          Prototipe SINARA menghadirkan katalog film, pencarian judul dan genre,
+          daftar favorit, notifikasi tayang, serta pustaka tontonan dalam tampilan yang sederhana dan elegan.
+        </p>
+        <ul>
+          <li>Pencarian judul dan genre</li>
+          <li>Status tayang dan coming soon</li>
+          <li>Favorit dan pustaka tontonan</li>
+          <li>Profil kreator dan detail film</li>
+        </ul>
+      </div>
+      <div class="device-stack reveal">
+        <img src="assets/app-home.png" alt="Tampilan beranda prototipe SINARA">
+        <img src="assets/app-search.png" alt="Tampilan pencarian prototipe SINARA">
+      </div>
+    </section>
+
+    <section id="tentang" class="section about">
+      <div class="about-card reveal">
+        <p class="eyebrow">MENGAPA SINARA DIBANGUN?</p>
+        <h2>Karena film tidak seharusnya berhenti sebagai file.</h2>
+        <p>
+          Banyak pelajar dan filmmaker muda telah menyelesaikan film dengan keterbatasan biaya,
+          waktu, dan peralatan. Namun setelah selesai, karya mereka sering hanya tersimpan di komputer
+          atau hard disk karena belum memiliki ruang publikasi yang sesuai.
+        </p>
+        <p>
+          SINARA hadir dengan visi menjadi rumah bagi karya-karya tersebut agar dapat ditemukan,
+          diapresiasi, dan ditonton oleh masyarakat yang lebih luas.
+        </p>
+      </div>
+      <div class="values reveal">
+        <article><span>01</span><h3>Karya Orisinal</h3><p>Memberi ruang bagi cerita yang lahir dari pengalaman dan sudut pandang kreator Indonesia.</p></article>
+        <article><span>02</span><h3>Kurasi Berkualitas</h3><p>Menjaga kualitas tayangan melalui proses pemeriksaan dan kurasi.</p></article>
+        <article><span>03</span><h3>Dukung Kreator</h3><p>Membantu filmmaker muda mendapatkan ruang publikasi dan penonton.</p></article>
+        <article><span>04</span><h3>Akses Nasional</h3><p>Dirancang untuk kreator dan penonton dari seluruh wilayah Indonesia.</p></article>
+      </div>
+    </section>
+
+    <section id="kreator" class="creator-section">
+      <div class="creator-inner reveal">
+        <p class="eyebrow">UNTUK KREATOR</p>
+        <h2>Punya film yang belum menemukan penontonnya?</h2>
+        <p>
+          Film pendek, dokumenter, film pelajar, after movie, karya komunitas,
+          dan produksi independen lainnya dapat dipersiapkan untuk diajukan ke SINARA.
+        </p>
+        <div class="steps">
+          <div><b>1</b><span>Siapkan karya dan identitas film</span></div>
+          <div><b>2</b><span>Kirim pengajuan kepada tim SINARA</span></div>
+          <div><b>3</b><span>Proses pemeriksaan dan kurasi</span></div>
+          <div><b>4</b><span>Karya diterbitkan saat platform siap</span></div>
+        </div>
+        <a class="btn primary" href="mailto:dutadigitalpapuaemasddpe@gmail.com?subject=Pengajuan%20Karya%20Film%20ke%20SINARA">Ajukan Karya</a>
+      </div>
+    </section>
+
+    <section id="berita" class="section">
+      <div class="section-head reveal">
+        <div><p class="eyebrow">BERITA & PERKEMBANGAN</p><h2>Perjalanan membangun SINARA.</h2></div>
+      </div>
+      <div class="news-grid">
+        <article class="news-card reveal">
+          <span>17 JULI 2026</span>
+          <h3>SINARA diperkenalkan sebagai rumah film independen Indonesia</h3>
+          <p>Platform ini sedang dikembangkan oleh Rohilman Putra Jagong, siswa DKV dari Timika.</p>
+        </article>
+        <article class="news-card reveal">
+          <span>PROTOTIPE</span>
+          <h3>Tampilan katalog dan pencarian film mulai dirancang</h3>
+          <p>Fokus awal pengembangan mencakup pengalaman pengguna, katalog, pencarian, dan identitas visual.</p>
+        </article>
+        <article class="news-card reveal">
+          <span>VISI</span>
+          <h3>Dari Timika untuk filmmaker muda Indonesia</h3>
+          <p>SINARA ditujukan bagi kreator lokal maupun nasional yang membutuhkan ruang publikasi karya.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <div class="section-head reveal"><div><p class="eyebrow">PERTANYAAN UMUM</p><h2>Hal yang perlu diketahui.</h2></div></div>
+      <div class="faq-list">
+        <details class="reveal"><summary>Apakah SINARA sudah resmi dirilis?</summary><p>Belum. SINARA masih dalam tahap pengembangan dan penyempurnaan prototipe.</p></details>
+        <details class="reveal"><summary>Siapa yang dapat mengajukan film?</summary><p>Pelajar, mahasiswa, komunitas, filmmaker independen, serta talenta muda dari seluruh Indonesia.</p></details>
+        <details class="reveal"><summary>Apakah semua film langsung ditayangkan?</summary><p>Tidak. Karya direncanakan melalui proses pemeriksaan, izin publikasi, dan kurasi terlebih dahulu.</p></details>
+        <details class="reveal"><summary>Apakah SINARA sama dengan Netflix?</summary><p>SINARA menggunakan konsep layanan streaming, tetapi fokus utamanya adalah film pelajar dan karya independen Indonesia.</p></details>
+      </div>
+    </section>
+
+    <section id="kontak" class="contact-section">
+      <div class="contact-card reveal">
+        <div>
+          <p class="eyebrow">KONTAK SINARA</p>
+          <h2>Mari bertumbuh bersama karya Indonesia.</h2>
+          <p>Untuk kerja sama, publikasi, wawancara, atau pengajuan film, hubungi pengembang SINARA.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:dutadigitalpapuaemasddpe@gmail.com">Email SINARA</a>
+          <a class="btn ghost" href="https://wa.me/6285754264682" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <div class="footer-brand">SINARA</div>
+      <p>Rumah Film Independen Indonesia.</p>
+    </div>
+    <div class="footer-meta">
+      <span>Rohilman Putra Jagong</span>
+      <span>Timika, Papua Tengah</span>
+      <span>sinarafilm.web.id</span>
+    </div>
+    <div class="copyright">© 2026 SINARA. Masih dalam tahap pengembangan.</div>
+  </footer>
+</body>
+</html>
